@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity implements
     }
 
     public void tellJoke(View view) {
-        new EndpointsAsyncTask(this, this, idlingResource).execute();
+        new EndpointsAsyncTask(this, idlingResource).execute();
     }
 
     @Override
